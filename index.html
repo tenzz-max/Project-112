@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title> Project 110</title>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <ol>
+        <div class="col-sm-12 image_1">
+            <li>
+                <b>Test Image - </b> <img src="Book.jpg" class="img-responsive">
+            </li>
+            <h5>Output On <b>Microsoft Azure</b> - 
+                <span>text</span>
+            </h5>
+            <h5>Output On <b>Mobilenet Model</b> - 
+                <span>Comic Book</span>
+            </h5>
+
+            <div class="result">
+                <h4>Results</h4>
+                <hr>
+                <h4>Mobilenet is more accurate</h4>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="col-sm-12 image_2">
+            <li>
+                <b>Test Image - </b> <img src="Pen.jpg" class="img-responsive">
+            </li>
+            <h5>Output On <b>Microsoft Azure</b> - 
+                <span>a close up of a toy</span>
+            </h5>
+            <h5>Output On <b>Mobilenet Model</b> - 
+                <span>Ballpoint, Ballpoint pen, Ballpen, Biro</span>
+            </h5>
+
+            <div class="result">
+                <h4>Results</h4>
+                <hr>
+                <h4> Mobilenet is closer</h4>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="col-sm-12 image_3">
+            <li>
+                <b>Test Image - </b> <img src="Rock.jpg" class="img-responsive">
+            </li>
+            <h5>Output On <b>Microsoft Azure</b> - 
+                <span>a piece of cake sitting on top of a wooden table</span>
+            </h5>
+            <h5>Output On <b>Mobilenet Model</b> - 
+                <span> bagel, beigel</span>
+            </h5>
+
+            <div class="result">
+                <h4>Results</h4>
+                <hr>
+                <h4>Tie</h4>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="col-sm-12 image_4">
+            <li>
+                <b>Test Image - </b> <img src="Sharpener.jpg" class="img-responsive">
+            </li>
+            <h5>Output On <b>Microsoft Azure</b> - 
+                <span>a close up of a bottle</span>
+            </h5>
+            <h5>Output On <b>Mobilenet Model</b> - 
+                <span>hair spray</span>
+            </h5>
+
+            <div class="result">
+                <h4>Results</h4>
+                <hr>
+                <h4>Tie</h4>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="col-sm-12 image_5">
+            <li>
+                <b>Test Image - </b> <img src="Stapler.jpg" class="img-responsive">
+            </li>
+            <h5>Output On <b>Microsoft Azure</b> - 
+                <span>a blue toothbrush</span>
+            </h5>
+            <h5>Output On <b>Mobilenet Model</b> - 
+                <span>mouse, computer mouse</span>
+            </h5>
+
+            <div class="result">
+                <h4>Results</h4>
+                <hr>
+                <h4>Tie</h4>
+            </div>
+        </div>
+
+    </ol>
+<br><br><br>
+    <div class="final">
+        <h4 style="color: red;">I have tested 5 items. Mobilenet has predicted 2 more accurately.
+        The other 3 items weren't identified by neither one. <br> 
+        So according to my case study Moblenet is more accurate than Microsoft Azure.</h4>
+    </div>
+
+    
+    </center>
+</body>
+</html>
